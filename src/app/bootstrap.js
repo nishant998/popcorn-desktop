@@ -9,7 +9,7 @@
     var providerPath = './src/app/lib/providers/';
 
     var files = fs.readdirSync(providerPath);
-
+    //head
     var head = document.getElementsByTagName('head')[0];
     return files
       .map(function(file) {
